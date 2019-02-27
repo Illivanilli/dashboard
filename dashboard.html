@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <div class ="date"><button name = "date" type ="button" disabled>2/26/2019</button> </div>
+        <div class ="header"><h1>Responsive Dashboard</h1></div>
+        <div class ="time"><button name = "time" type ="button"disabled> 15:45</button></div>
+    </header>
+    <main>
+    
+        <div class = "calendar">
+            <div class="month">
+                <div class = "august">
+                    <h1>August 2017</h1>
+                </div>
+              </div>
+              
+              <ul class="weekdays">
+                <li>Mo</li>
+                <li>Tu</li>
+                <li>We</li>
+                <li>Th</li>
+                <li>Fr</li>
+                <li>Sa</li>
+                <li>Su</li>
+              </ul>
+              
+              <ul class="days">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li><li>12</li>
+                <li>10</span></li>
+                <li>11</li><li>12</li><li>13</li><li>14</li><li>15</li><li>16</li><li>17</li><li>18</li><li>18</li><li>19</li>
+                <li>20</li><li>21</li><li>22</li><li>23</li><li>24</li><li>25</li><li>26</li><li>27</li><li>28</li><li>29</li>
+                <li>30</li>
+                
+              </ul> 
+        </div>
+        <div class ="calcBody">
+            <div id = "displayBox">
+                <p>122+55 = 177</p>
+            </div>
+            <!-- Symbols =-+*/ -->
+            <div class = "symbols">
+                <input id="symbol" type ="button" value ="Off">
+                <input id="symbol" type ="button" value="On">
+                <input id="symbol" type="button" value="+">
+                <input id="symbol" type="button" value="-">
+                <input id="symbol" type="button" value="*">
+                <input id="symbol" type="button" value="/">               
+            </div>
+            <!-- Numbers 1-7 with return as a seperate id to change the size.-->
+            <div class= "number">
+                <input id="numbers" type="button" value="7">
+                <input id="numbers" type="button" value="8">
+                <input id="numbers" type="button" value="9">
+                <input id="numbers" type="button" value="4">
+                <input id="numbers" type="button" value="5">
+                <input id="numbers" type="button" value="6">
+                <input id="numbers" type="button" value="1">
+                <input id="numbers" type="button" value="2">
+                <input id="numbers" type="button" value="3">
+                <input id="numbers" type="button" value="0">
+                <input id ="return" type="button" value="return">
+            </div>
+        </div>
+    
+        <div id "toDo">
+            <h2> To Do list</h2>
+            <ul class ="list">
+                <li>Buy new T-shirt</li>
+                <li>Wax car</li>
+                <li>Hair Cut</li>
+                <li>Win the lottery!!!! Most Important!</li>
+            </ul>
+            <input type="text" id="myInput" placeholder="Next">
+        <span onclick="newElement()" class="addBtn">Add task.</span>
+        </div>
+        </main>
+</body>
+</html>
